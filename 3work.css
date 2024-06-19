@@ -1,0 +1,210 @@
+.main{
+    border: 1px solid black;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.road{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+}
+.line{
+    width: 100%;
+    height: 10px;
+    /* border: 2px solid yellow; */
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+}
+.bars{
+    width: 10%;
+    height: 10px;
+    background-color: white;
+    margin-left: 7%;
+}
+.rect{
+    width: 20%;
+    height: 40px;
+    border: 1px solid black;
+    background-color: #FE0000;
+    margin-left: 20%;
+    position: fixed;
+}
+.circles{
+    width: 5%;
+    height: 30%;
+    background-color: #3A3A3A;
+    border-radius: 100%;
+    position: absolute;
+    left: 32%;
+    bottom: 40%;
+    border: 1px solid #B7B7B7;
+    
+}
+.circles2{
+    width: 5%;
+    height: 30%;
+    background-color: #3A3A3A;
+    border-radius: 100%;
+    position: absolute;
+    left: 22%;
+    bottom: 40%;
+    border: 1px solid #B7B7B7;
+}
+.box{
+    width: 10%;
+    height: 40px;
+    border: 1px solid black;
+    background-color: #BF0000;
+    position: absolute;
+    bottom: 100;
+    left: 25%;
+}
+.c{
+    width: 100%;
+    height: 5%;
+    background-color: #4F95D9;
+    
+}
+.ci{
+    width: 15%;
+    height: 20%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 100%;
+    border: 1px solid #4F95D9;
+    position: absolute;
+    margin-left: 0%;
+    background-color: #4F95D9;
+}
+.ci1{
+    width: 18%;
+    height: 20%;
+    border: 1px solid #4F95D9;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 7%;
+    top: 0;
+    background-color: #4F95D9;
+}
+.ci2{
+    width: 15%;
+    height: 20%;
+    border: 1px solid #4F95D9;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 19%;
+    top: 0;
+    background-color: #4F95D9;
+}
+.ci3{
+    width: 15%;
+    height: 20%;
+    border: 1px solid #4F95D9;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 30%;
+    top: 0%;
+    background-color: #4F95D9;
+}
+.ci4{
+    width: 12%;
+    height: 25%;
+    border: 1px solid #4F95D9;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 40%;
+    top: 0;
+    background-color: #4F95D9;
+}
+.ci5{
+    width: 10%;
+    height: 25%;
+    border: 1px solid #4F95D9;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 49%;
+    top: 0;
+    background-color: #4F95D9;
+}
+.ci6{
+    width: 10%;
+    height: 25%;
+    border: 1px solid #4F95D9;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 56%;
+    top: 0;
+    background-color: #4F95D9;
+}
+.ci7{
+    width: 20%;
+    height: 25%;
+    border: 1px solid #4F95D9;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 60%;
+    top: 0;
+    background-color: #4F95D9;
+}
+.ci8{
+    width: 20%;
+    height: 25%;
+    border: 1px solid #4F95D9;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 70%;
+    top: 0%;
+    background-color: #4F95D9;
+}
+.ci9{
+    width: 10%;
+    height: 25%;
+    border: 1px solid #4F95D9;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 85%;
+    top: 0;
+    background-color: #4F95D9;
+}
+.ci10{
+    width: 10%;
+    height: 25%;
+    border: 1px solid #4F95D9;
+    border-bottom-left-radius: 350px;
+    position: absolute;
+    right: 0;
+    background-color: #4F95D9;
+}
+
+.sun{
+    width: 15%;
+    height: 30%;
+    background-color: #FFC000;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 60%;
+    box-shadow: 0px 0px 15px 10px orange;
+}
+.l1{
+    width: 13%;
+    height: 35%;
+    background-color: #136084;
+    border: 1px solid black;
+    position: relative;
+    left: 86.5%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.l2{
+    width: 13%;
+    height: 35%;
+    background-color: #136084;
+    border: 1px solid black;
+    position: relative;
+    left: 86.5%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}

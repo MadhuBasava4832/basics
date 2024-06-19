@@ -1,0 +1,17 @@
+.main{
+    border: 1px solid black;
+    width: 950px;
+    height: 1230px;
+    background-image: url(../photos/background.jpg);
+}
+.a{
+    border: 1px solid black;
+    margin-top: 15%;
+    width: fit-content;
+    
+}
+.b{
+    border: 1px solid black;
+    width: fit-content;
+    font-size: 50px;
+}

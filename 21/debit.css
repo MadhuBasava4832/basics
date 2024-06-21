@@ -1,0 +1,90 @@
+.main{
+    width: 500px;
+    height: fit-content;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+#image{
+    width: 100%;
+    z-index: -1;
+}
+.img img{
+    width: 100px;
+}
+.right{
+    position: absolute;
+    top: 0;
+    right: 10;
+}
+/* #white{
+    font-size: 22;
+    font-weight: 600;
+    color: white;
+}
+#blue{
+    font-size: 25;
+    font-weight: 600;
+    color: blue;
+} */
+
+.chip{
+    position: absolute;
+    left: 20;
+    top: 120;
+    /* box-shadow: 0px 0px 1px 1px white; */
+}
+
+.l img{
+    width: 100px;
+}
+.line{
+    width:400px;
+    position: absolute;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    top: 190;
+    left: 50;
+}
+.white{
+    color: white;
+    font-size: 25;
+}
+.name{
+    position: absolute;
+    top: 280;
+    left: 40;
+    color: white;
+    font-size: 20;
+    
+}
+.visa{
+    position: absolute;
+    right: 10;
+    top: 260;
+}
+.visa img{
+    width: 80;
+}
+.pl{
+    position: absolute;
+    right: 10;
+    top: 300;
+    color: white;
+}
+#no{
+    position: absolute;
+    top: 240;
+    left: 270;
+    color: white;
+    font-size: 25;
+}
+.valid{
+    position: absolute;
+    top: 243;
+    left: 238;
+    color: white;
+    font-size: 10;
+}

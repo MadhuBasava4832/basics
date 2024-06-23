@@ -1,0 +1,243 @@
+<html>
+    <head>
+        <style>
+            body{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+                width: 100%;
+                height: 100svh;
+                position: relative;
+            }
+            .bc1{
+                width: 100%;
+                height: 50%;
+                background: linear-gradient(to top right,#12577A,#7FCCC6);
+                z-index: -2;
+                display: flex;
+                justify-content: center;
+
+            }
+            .bc2{
+                width: 100%;
+                height: 50%;
+                background-color: #82CFC7;
+                border-bottom-left-radius: 50px;
+                border-bottom-right-radius: 50px;
+                z-index: -2;
+            }
+            .header{
+                width: 90%;
+                height: 35;
+                /* border: 1px solid yellow; */
+                margin-top: 0.5%;
+                display: flex;
+                position: absolute;
+            }
+            .icon{
+                width: 15%;
+                height: 100%;
+                /* border: 1px solid yellow; */
+                display: flex;
+            }
+            .words{
+                width: 50%;
+                height: 100%;
+                /* border: 1px solid yellow; */
+                margin-left: 10%;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+            .icon2{
+                width: 30;
+                height: 30;
+                border: 1px solid rgb(255, 255, 255);
+                margin-left: 20%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 100%;
+                background-color: white;
+            }
+            
+            .home{
+                font-size: 12px;
+            }
+            .w{
+                color: white;
+                font-size: 12px;
+            }
+            .box{
+                width: 20;
+                height: 50%;
+                background-color: transparent;
+                border: 1px solid black;
+                box-shadow: 5px 5px 0px black;
+                border-radius: 3px;
+            }
+            .topicc{
+                font-size: 20;
+                padding-left: 10;
+                padding-top: 3;
+            }
+            h1{
+                position: absolute;
+                top: 60;
+                color: white;
+            }
+            p{
+                position: absolute;
+                top: 110;
+                color: #12577A;
+            }
+            .search{
+                position: absolute;
+                top: 170;
+                background-color: white;
+                width: 60%;
+                height: 8%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                border-radius: 100px;
+            }
+            .green{
+                background-color: #82CFC7;
+                padding: 5 10;
+                border-radius: 100px;
+                color: white;
+            }
+            .left{
+                width: 25%;
+                height: 58%;
+                position: absolute;
+                top: 40%;
+                left: 10%;
+                background-color: white;
+                border-radius: 12px;
+            }
+            .right{
+                width: 50%;
+                height: 58%;
+                position: absolute;
+                top: 40%;
+                left: 40%;
+                background-color: white;
+                border-radius: 12px;
+                background: linear-gradient(to top right,#12577A,#7FCCC6),url(../photos/bg1.webp);
+                background-image: url(../photos/bg1.webp);
+                /* background-size: cover; */
+                /* background-position: center; */
+                /* background-repeat: no-repeat; */
+                background-size: 100% 100%;
+            }
+            #op{
+                /* position: absolute; */
+                color: #5e5e5e;
+            }
+            #forimage{
+                width: 100%;
+            }
+            .in{
+                display: flex;
+                align-items: center;
+                padding-top: 10px;
+                padding-left: 10px;
+            }
+            .t{
+                width: fit-content;
+                background-color: #03B0FC;
+                padding: 5px 10px;
+                border-radius: 10px;
+                color: white;
+                margin-right: 15px;
+            }
+            
+            .share{
+                /* border: 1px solid black; */
+                position: absolute;
+                top: 320;
+            }
+            .icons{
+                position: absolute;
+                top: 320;
+                display: flex;
+                left: 100;
+                padding: 5px 5px;
+                border-radius: 100%;
+                background-color: white;
+            }
+            .icons img{
+                width: 20;
+            }
+            .ic{
+                left: 140;
+            }
+            #nm{
+                position: absolute;
+                bottom: 25;
+                right: 30;
+                width: 20;
+                }
+        </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+    <body>
+        <div class="bc1">
+            <div class="header">
+                <div class="icon">
+                    <div class="box"></div>
+                    <div class="topicc">TOPIC</div>
+                </div>
+                <div class="words">
+                    <div class="home">HOME</div>
+                    <div class="w">BROWSE TOPICS</div>
+                    <div class="w"> HOW IT WORKS</div>
+                    <div class="w">FAQS</div>
+                    <div class="w">CONTACT</div>
+                    <div class="w">
+                        <select name="" id="gh" style="background: transparent; border: none; font-size: 12px;">
+                            <option value="">PAGES</option>
+                        </select>
+                    </div>
+                </div>
+                <!-- <i style="width: 100%; height: 100%; color:white;" class="fa-regular fa-user icon2"></i> -->
+                <div class="icon2"><i style="color: #185A7D;" class="fa-regular fa-user"></i></div>
+            </div>
+            <h1>Discover. Learn. Enjoy</h1>
+            <p>Platform for creatives around the world</p>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Design, Code, Marketting, Finance ..." style="width: 70%; height: 80%; border: none;">
+                <div class="green">Search</div>
+            </div>
+        </div>
+        <div class="bc2"></div>
+        <div class="left">
+            <div class="in">
+                <div class="r" style="font-weight: bold; font-size: 20px; padding: 5px 10px; width: 80%;">Web Design</div>
+                <div class="t">14</div>
+            </div>
+            <div id="op" style="font-size: 20px; padding-left: 20; padding-right: 10; letter-spacing: 1px; word-spacing: 3px;">When you search for free CSS templates,you will notice that TemplateMo is one of the best websites.</div>
+            <div id="forimage"><img style="width: 100%;" src="../photos/undraw_Remote_design_team_re_urdx.png" alt=""></div> 
+        </div>
+        <div class="right">
+            <div class="in">
+                <div class="r" style="font-weight: bold; font-size: 20px; padding: 5px 10px; width: 80%; color: white; ">Finance</div>
+                <div class="t">25</div>
+            </div>
+            <div style="font-size: 20px; padding-left: 20; padding-right: 10; color: white; letter-spacing: 1px; word-spacing: 3px;">Topic listing templates includes homepage,listing page,detail page,and contact page.You can feel free to edit and adapt for your CMS requirements.</div>
+            <div style="display: inline; margin-left: 18px; position: absolute; top: 180px;" class="green">Learn More</div>
+            <div style="font-size: 20px; padding-left: 20; padding-right: 10; color: white; letter-spacing: 1px; word-spacing: 3px;" class="share">Share : </div>
+            <div class="icons">
+                <img src="../icons/twitter.png" alt="">
+            </div>
+            <div class="icons ic">
+                <img src="../icons/facebook.png" alt="">
+            </div>
+                <img id="nm" src="../icons/bookmark.png" alt="">
+        </div>
+    </body>
+</html>

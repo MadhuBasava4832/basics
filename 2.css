@@ -27,13 +27,13 @@
     border-width: 10px 20px 5px; */
 }
 .jkl{
-    /* border: 2px solid black;
+    border: 2px solid black;
     width: 100%;
     max-width: 800px;
-    min-width: 600px; */
+    min-width: 600px;
 
 /* width: fit-content; */
-    border: 2px solid black;
+    /* border: 2px solid black; */
 
     /* height: 100vh; */
     height: 100svh;

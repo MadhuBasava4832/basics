@@ -1,0 +1,55 @@
+.main{
+    width: 380px;
+    height: 580px;
+    border: 1px solid black;
+    position: relative;
+    background-color:#D5D5D5;
+    border-radius: 40px;
+}
+.line{
+    width: 340px;
+    height: 540px;
+    border: 10px solid #000000;
+    position: absolute;
+    left: 10;
+    top: 10;
+    border-radius: 40px;
+    box-shadow: 0px 0px 5px 5px rgb(250, 248, 248);
+}
+.rolls{
+    font-size: 100;
+    text-align: center;
+    border-width: 0px 0px 10px 0px;
+    /* position: absolute; */
+    border-color: black;
+    border-style: solid;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+.royce{
+    font-size: 100;
+    text-align: center;
+    border-width: 10px 0px 0px 0px;
+    border-color: black;
+    border-style: solid;
+    position: absolute;
+    bottom: 0;
+    
+}
+.r{
+    
+    position: absolute;
+    top: 90;
+    left: 90;
+    font-size: 320;
+    text-shadow: 0px 0px 5px #ffffff;
+    z-index: 1;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+.rr{
+    font-size: 320;
+    position: absolute;
+    top: 60;
+    left: 30;
+    z-index: 2;
+    text-shadow: 0px 0px 5px #ffffff;
+}

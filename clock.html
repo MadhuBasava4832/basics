@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <style>
+            body{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .clock{
+                width: 500;
+                height: 500;
+                border: 1px solid black;
+                border-radius: 100%;
+                position: relative;
+                background-image: url(../photos/clock.jpeg);
+                background-size: 100% 100%;
+            }
+            .sec{
+                width: 2;
+                height: 100%;
+                position: absolute;
+                left: 50%;
+                bottom: 0;
+                border-radius: 100%;
+                animation-name: seco;
+                animation-duration: 60s;
+                animation-iteration-count: infinite;
+            }
+            .second{
+                width: 100%;
+                height: 60%;
+                background-color: black;
+                border-radius: 100%;
+            }
+            @keyframes seco{
+                0%{
+                    transform: rotate(0deg);
+                }
+                100%{
+                    transform: rotate(360deg);
+                }
+            }
+            .min{
+                width: 8;
+                height: 100%;
+                position: absolute;
+                left: 50%;
+                bottom: 0;
+                border-radius: 10%;
+                animation-name: mino;
+                animation-duration: 3600s;
+                animation-iteration-count: infinite;
+
+            }
+            .minute{
+                width: 100%;
+                height: 50%;
+                position: absolute;
+                top: 8%;
+                background-color: grey;
+                border-radius: 10%;
+            }
+            @keyframes mino{
+                0%{
+                    transform: rotate(0deg);
+                }
+                100%{
+                    transform: rotate(360deg);
+                }
+            }
+            .hou{
+                width: 10;
+                height: 100%;
+                position: absolute;
+                left: 50%;
+                bottom: 0;
+                border-radius: 100%;
+                animation-name: ho;
+                animation-duration: 21600s;
+                animation-iteration-count: infinite;
+            }
+            .hour{
+                width: 100%;
+                height: 37%;
+                position: absolute;
+                top: 18%;
+                background-color: black;
+                border-radius: 100%;
+            }
+            @keyframes ho{
+                0%{
+                    transform: rotate(0deg);
+                }
+                100%{
+                    transform: rotate(360deg);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="clock">
+            <div class="sec"><div class="second"></div></div>
+            <div class="min"><div class="minute"></div></div>
+            <div class="hou"><div class="hour"></div></div>
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <style>
+            .main{
+            }
+            .parent{
+                width: 200px;
+                height: 300px;
+                position: relative;  
+                transition: all 2s;
+                /* perspective: 100px; */
+                
+            }
+            .parent:hover{
+                transform-style: preserve-3d;
+                /* transform: rotateY(180deg); */
+                transform: rotate(180deg) rotateX(-180deg);
+            }
+            .child1,.child2{
+                width: 200px;
+                height: 300px;
+                border: 1px solid black;
+                border-radius: 20px;
+                overflow: hidden;
+                position: absolute;
+                top: 0;
+                left: 0;
+                backface-visibility: hidden;
+            }
+            .child1 img{
+                width: 100%;
+                height: 100%;
+            }
+            .child2{
+                text-align: center;
+                font-size: 2rem;
+                transform: rotateY(180deg);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="parent">
+                <div class="child1"><img src="../photos/mikey (3).jpeg" alt=""></div>
+                <div class="child2">Mikey <br> from  <br>Tokyo Revengers</div>
+            </div>
+        </div>
+    </body>
+</html>
